@@ -1,62 +1,90 @@
+// 1. Download to use locally (from Google Fonts or web)
+// 2. Use a service such as FontSquirrel’s Webfont Generator
+// https://www.fontsquirrel.com/tools/webfont-generator
+// to turn the .ttf into .woff2  (and .woff?) files
+// 3. Create a /public/fonts folder inside project root,
+// and place the fonts in that folder
+// 4. Inside our /base folder, create a _font-face.scss partial
+// with the code below
+
+// 100 - Thin
+// 200 - ExtraLight
+// 300 - Light
+// 400 - Regular
+// 500 - Medium
+// 600 - SemiBold
+// 700 - Bold
+// 800 - ExtraBold
+// 900 - Black
+
 @font-face {
   font-family: 'Inter';
   font-weight: 100;
   font-display: swap;
-  src: url('/fonts/inter_100.woff2') format('woff2');
+  src: local('Inter'), local('Inter Thin'),
+    url('/fonts/inter_100.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 200;
   font-display: swap;
-  src: url('/fonts/inter_200.woff2') format('woff2');
+  src: local('Inter'), local('Inter ExtraLight'),
+    url('/fonts/inter_200.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 300;
   font-display: swap;
-  src: url('/fonts/inter_300.woff2') format('woff2');
+  src: local('Inter'), local('Inter Light'),
+    url('/fonts/inter_300.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 400;
   font-display: swap;
-  src: url('/fonts/inter_400.woff2') format('woff2');
+  src: local('Inter'), local('Inter Regular'),
+    url('/fonts/inter_400.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 500;
   font-display: swap;
-  src: url('/fonts/inter_500.woff2') format('woff2');
+  src: local('Inter'), local('Inter Medium'),
+    url('/fonts/inter_500.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 600;
   font-display: swap;
-  src: url('/fonts/inter_600.woff2') format('woff2');
+  src: local('Inter'), local('Inter SemiBold'),
+    url('/fonts/inter_600.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 700;
   font-display: swap;
-  src: url('/fonts/inter_700.woff2') format('woff2');
+  src: local('Inter'), local('Inter Bold'),
+    url('/fonts/inter_700.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 800;
   font-display: swap;
-  src: url('/fonts/inter_800.woff2') format('woff2');
+  src: local('Inter'), local('Inter ExtraBold'),
+    url('/fonts/inter_800.woff2') format('woff2');
 }
 
 @font-face {
   font-family: 'Inter';
   font-weight: 900;
   font-display: swap;
-  src: url('/fonts/inter_900.woff2') format('woff2');
+  src: local('Inter'), local('Inter Black'),
+    url('/fonts/inter_900.woff2') format('woff2');
 }
