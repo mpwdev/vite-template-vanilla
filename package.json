@@ -6,10 +6,22 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "lint:js": "eslint .",
+    "lint:js:fix": "eslint . --fix",
+    "lint:scss": "stylelint \"**/*.scss\"",
+    "lint:scss:fix": "stylelint \"**/*.scss\" --fix",
+    "format": "prettier . --write",
+    "lint": "npm run lint:js && npm run lint:scss",
+    "lint:fix": "npm run lint:js:fix && npm run lint:scss:fix && npm run format"
   },
   "devDependencies": {
+    "eslint": "^9.37.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "3.6.2",
     "sass-embedded": "^1.93.2",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard-scss": "^16.0.0",
     "vite": "npm:rolldown-vite@7.1.16"
   },
   "overrides": {
