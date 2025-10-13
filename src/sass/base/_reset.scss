@@ -11,8 +11,8 @@
 
 * {
   margin: 0;
-  padding: 0;
-  font: inherit;
+  //padding: 0;
+  //font: inherit;
 }
 
 // A (more) Modern CSS Reset
@@ -44,6 +44,9 @@ body {
   min-height: 100vh;
   line-height: 1.5;
 }
+
+// A Modern CSS Reset
+// https://www.joshwcomeau.com/css/custom-css-reset/
 
 //  Improve media defaults
 img {
@@ -168,7 +171,7 @@ a:not([class]) {
   scroll-padding-block-start: 2rem;
 }
 
-/* Scroll padding allowance below focused elements 
+/* Scroll padding allowance below focused elements
 to ensure they are clearly in view */
 :focus {
   scroll-padding-block-end: 8vh;
