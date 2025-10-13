@@ -20,71 +20,98 @@
 @font-face {
   font-family: Inter;
   font-weight: 100;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter Thin'),
+  src:
+    local('Inter'),
+    local('Inter Thin'),
     url('/fonts/inter_100.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 200;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter ExtraLight'),
+  src:
+    local('Inter'),
+    local('Inter ExtraLight'),
     url('/fonts/inter_200.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 300;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter Light'),
+  src:
+    local('Inter'),
+    local('Inter Light'),
     url('/fonts/inter_300.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 400;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter Regular'),
+  src:
+    local('Inter'),
+    local('Inter Regular'),
     url('/fonts/inter_400.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 500;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter Medium'),
+  src:
+    local('Inter'),
+    local('Inter Medium'),
     url('/fonts/inter_500.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 600;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter SemiBold'),
+  src:
+    local('Inter'),
+    local('Inter SemiBold'),
     url('/fonts/inter_600.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 700;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter Bold'),
+  src:
+    local('Inter'),
+    local('Inter Bold'),
     url('/fonts/inter_700.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 800;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter ExtraBold'),
+  src:
+    local('Inter'),
+    local('Inter ExtraBold'),
     url('/fonts/inter_800.woff2') format('woff2');
 }
 
 @font-face {
   font-family: Inter;
   font-weight: 900;
+  font-style: normal;
   font-display: swap;
-  src: local('Inter'), local('Inter Black'),
+  src:
+    local('Inter'),
+    local('Inter Black'),
     url('/fonts/inter_900.woff2') format('woff2');
 }
